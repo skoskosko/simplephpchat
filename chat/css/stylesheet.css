@@ -1,0 +1,88 @@
+body{
+	background-color:#FFFCCC;
+	overflow:hidden;
+/*making body nice and yellow*/
+}
+
+#chat_area{
+	height:500px;
+	width:500px;
+	overflow-y:scroll;	
+/* Making chat scroll up and down and in code later make it start down*/	
+}
+
+p{
+	-ms-word-break: break-all;
+    word-break: break-all;
+    word-break: break-word;
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    -ms-hyphens: auto;
+	background-color: #CCFFFF; 
+	padding:1%;
+	width:40%;
+	border-radius: 10%;
+	left:5%;
+	position:relative;
+	/* Lots of thingys to get lines break like they are suuposed to, also border radius that causes bugs when you have long messages*/
+}
+#textfield{
+	resize: none;
+}
+
+#button{
+/*making images act as buttons*/	
+	cursor:pointer;
+}
+
+#login_form{
+	position: absolute;
+	left: 50%;	
+	top:40%;	
+	text-align: center;
+/*getting login to center*/
+}
+
+#login_form2{
+	position: relative; 
+	left: -50%;
+	top:-50%;	
+	font-size: 16px;
+/*centering this inside div with another div*/
+	}
+
+#loginbutton{
+	background-color: #CCFFFF;
+    border: none;
+    padding: 5px;
+	width:250px;
+	margin:3px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;	
+	border-radius: 10%;
+/*Making login buttons look nice*/
+	}
+
+#loginfield{
+
+    border: none;
+    padding: 8px;
+	width:250px;
+	margin:3px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;	
+/*login fields looking nice too*/
+}
+
+#usernamelist{
+	
+	position: absolute;
+	left: 50%;		
+	text-align: center;
+	height:30%;
+	overflow-y:scroll;
+}
